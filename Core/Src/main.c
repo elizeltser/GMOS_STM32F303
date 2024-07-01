@@ -98,7 +98,7 @@ int main(void)
   MX_SPI1_Init();
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
-
+  BSP_Init();
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -108,6 +108,11 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+	  Consume_Message();
+	  HAL_Delay(100);
+	  HAL_SuspendTick();
+	  HAL_PWR_EnterSLEEPMode(PWR_MAINREGULATOR_ON, PWR_SLEEPENTRY_WFI);
+	  HAL_ResumeTick();
   }
   /* USER CODE END 3 */
 }

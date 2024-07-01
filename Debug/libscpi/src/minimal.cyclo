@@ -1,0 +1,14 @@
+../libscpi/src/minimal.c:52:15:SCPI_Stub	1
+../libscpi/src/minimal.c:62:15:SCPI_StubQ	1
+../libscpi/src/minimal.c:72:15:SCPI_SystemVersionQ	1
+../libscpi/src/minimal.c:82:15:SCPI_SystemErrorNextQ	1
+../libscpi/src/minimal.c:97:15:SCPI_SystemErrorCountQ	1
+../libscpi/src/minimal.c:108:15:SCPI_StatusQuestionableConditionQ	1
+../libscpi/src/minimal.c:120:15:SCPI_StatusQuestionableEventQ	1
+../libscpi/src/minimal.c:135:15:SCPI_StatusQuestionableEnableQ	1
+../libscpi/src/minimal.c:147:15:SCPI_StatusQuestionableEnable	2
+../libscpi/src/minimal.c:160:15:SCPI_StatusOperationConditionQ	1
+../libscpi/src/minimal.c:172:15:SCPI_StatusOperationEventQ	1
+../libscpi/src/minimal.c:187:16:SCPI_StatusOperationEnableQ	1
+../libscpi/src/minimal.c:199:15:SCPI_StatusOperationEnable	2
+../libscpi/src/minimal.c:212:15:SCPI_StatusPreset	1

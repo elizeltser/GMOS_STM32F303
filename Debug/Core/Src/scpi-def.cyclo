@@ -1,0 +1,10 @@
+../Core/Src/scpi-def.c:45:22:DAC_Channel_Select	6
+../Core/Src/scpi-def.c:66:22:DAC_Output_Select	3
+../Core/Src/scpi-def.c:92:22:MSP472_DC	10
+../Core/Src/scpi-def.c:144:22:TEST_Bool	2
+../Core/Src/scpi-def.c:165:22:TEST_ChoiceQ	2
+../Core/Src/scpi-def.c:182:22:TEST_Numbers	1
+../Core/Src/scpi-def.c:192:22:TEST_Text	2
+../Core/Src/scpi-def.c:205:22:TEST_ArbQ	2
+../Core/Src/scpi-def.c:233:22:TEST_Chanlst	21
+../Core/Src/scpi-def.c:373:22:My_CoreTstQ	1
